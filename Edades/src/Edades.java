@@ -23,7 +23,10 @@ public class Edades {
 			} else if (edad >= 12 && edad <= 18) {
 				System.out.println(" Usted es un adolescente ");
 				error = false;
-			} else if (edad >=19 && edad <=64) {
+			} else if (edad >=19 && edad <=39) {
+				System.out.println(" Usted es un joven ");
+				error = false;
+			} else if (edad >=40 && edad <=64) {
 				System.out.println(" Usted es un adulto ");
 				error = false;
 			} else if (edad >= 65 && edad <=125) {
